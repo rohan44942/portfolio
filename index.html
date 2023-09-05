@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile" id="section1">
+        <div class="heading">
+          <table>
+            <td>
+              <img
+                src="main_logo.png"
+                alt="main_logo image"
+                width="70px"
+                style="border-radius: 50%"
+              />
+            </td>
+            <td>
+              <h6 style="text-align: end">&nbsp A Little Former Designer</h6>
+            </td>
+          </table>
+        </div>
+        <div class="image">
+          <img src="image_me2.jpg" alt="my image" width="200px" />
+        </div>
+        <h2>hello@rohan.design <br />Base in Narnaul (Haryana) , india</h2>
+        <p>&copy 2022 Rohan. All Rights Reserved</p>
+        <div class="icons">
+          <div class="icon">
+            <i class="fa-brands fa-twitter" aria-hidden="tdue"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-github" aria-hidden="tdue"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-regular fa-globe" aria-hidden="tdue"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-instagram" aria-hidden="tdue"></i>
+          </div>
+        </div>
+        <button><i class="fa-solid fa-envelope"></i></button>
+      </div>
+      <div class="content">
+        <p><i class="fa-solid fa-house"></i> &nbsp Introduce</p>
+        <h1>HI from <span> Rohan Nooniwal </span>, Student at IIIT Kota</h1>
+        <h4>
+          I have keen interest in technology and ready to explore as much as i
+          can. i love coding to desgin simple and beautiful things and i love
+          what i do.
+        </h4>
+        <div class="image">
+          <i class="fa-solid fa-arrow-down"></i>
+          <img
+            src="logo.png"
+            alt="image/round-text"
+            width="300px"
+            height="300px"
+          />
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="toggle">
+          <i class="fa-solid fa-bars" aria-hidden="tdue"></i>
+        </div>
+        <div class="navbar-icons">
+          <ul>
+            <li>
+              <a href="#section1"
+                ><span>Home</span><i class="fa-solid fa-house"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#section2"
+                ><span>user</span><i class="fa-solid fa-user"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span>Resume</span><i class="fa-solid fa-bag-shopping"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span>Service</span><i class="fa-solid fa-regular fa-bars"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><span>Skills</span><i class="fa-solid fa-pen"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span>Portfolios</span><i class="fa-solid fa-building"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span>Testimonial</span><i class="fa-solid fa-message"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span>Contact</span
+                ><i class="fa-sharp fa-regular fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="side-bar">
+        <i class="fa-solid fa-xmark"> </i>
+        <h3>menu</h3>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i> <span>Home</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-user"></i> <span>User</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-bag-shopping"></i> <span>Resume</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-regular fa-bars"></i>
+              <span>Service</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-pen"></i> <span>Skills</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-building"></i> <span>Portfolios</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-message"></i> <span>Testimonial</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-sharp fa-regular fa-envelope"></i
+              ><span>Contact</span></a
+            >
+          </li>
+        </ul>
+        <div class="social">
+          <h3>Social</h3>
+          <div><i class="fa-brands fa-twitter"></i></div>
+          <div><i class="fa-brands fa-github"></i></div>
+          <div><i class="fa-solid fa-regular fa-globe"></i></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      toggle = document.querySelector(".toggle");
+      navbar = document.querySelector(".side-bar");
+      cross = document.querySelector(".fa-xmark");
+      toggle.onclick = () => {
+        navbar.classList.toggle("show");
+      };
+      cross.onclick = () => {
+        navbar.classList.toggle("show");
+      };
+      window.onscroll = () => {
+        if (window.scrollY > 80) {
+          toggle.classList.add("nav-active");
+        } else {
+          toggle.classList.remove("nav-active");
+        }
+      };
+    </script>
+    <div class="user">
+      <div id="section2">
+        <h2>USER SECTION</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil
+          numquam consectetur voluptatum repellendus iusto labore repudiandae
+          perferendis. Necessitatibus at deserunt quis quibusdam laudantium
+          consequuntur nesciunt voluptas eos iure dolore maiores distinctio ut
+          deleniti neque illum, optio sequi quae possimus in error laborum rerum
+          culpa? Delectus, illo. Explicabo voluptas eos saepe eligendi debitis
+          necessitatibus a quasi iusto sit, soluta nesciunt voluptatem! Aliquid
+          similique minima iure laudantium dolor? Similique cumque earum
+          pariatur animi quo voluptatem, nihil quam non magni iusto ea placeat
+          soluta beatae eum nulla fuga facilis libero accusamus quisquam
+          provident minima qui fugiat! Aliquid iste possimus optio, saepe
+          tempore vitae!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit modi id
+          sunt fuga, asperiores laborum praesentium, vel blanditiis quod omnis
+          in ex repellendus enim unde dolores quo, perferendis nobis sed esse et
+          doloremque tempora dolorem placeat? Eaque nobis ratione ipsum
+          perspiciatis aut architecto, esse eum eius aperiam autem, eos quasi!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
