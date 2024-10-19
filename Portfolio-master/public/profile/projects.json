@@ -1,0 +1,42 @@
+{
+    "projects": [
+        {
+            "image": "images/projects/portfolio-poster.png",
+            "title": "Dev Portfolio",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rohan44942/portfolio"
+                }
+            ],
+            "tags": [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "image": "images/projects/cyph3r.png",
+            "title": "IIITKRescources",
+            "bodyText": "Built a website for the college students using React.js, Node.js and mongodb,cloudianry,Auth0, providing a platform for take help and resources and updates. Ensured secure user authentication and real-time data synchronization for enhanced user interaction.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rohan44942/iiitkquestionpaper"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://iiitkresourcesv2.netlify.app/"
+                }
+            ],
+            "tags": [
+                "React.js",
+                "Node.js",
+                "mongoDB",
+                "Tailwind",
+                "cloudinary"
+            ]
+        }
+    ]
+}
